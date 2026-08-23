@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out the profile repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Generate the contribution trail
         uses: Platane/snk/svg-only@v3
