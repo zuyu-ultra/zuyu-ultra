@@ -57,7 +57,7 @@
     <!-- Website teaser caption -->
     <g transform="translate(70 310) rotate(1)">
       <path d="M0 0H660L638 72H18L0 0Z" fill="#F7D647" stroke="#171717" stroke-width="7" stroke-linejoin="round"/>
-      <text x="28" y="31" fill="#171717" font-family="Impact, Haettenschweiler, 'Arial Black', sans-serif" font-size="18" letter-spacing="2">PERSONAL SITE / COMING SOON</text>
+      <text x="28" y="31" fill="#171717" font-family="Impact, Haettenschweiler, 'Arial Black', sans-serif" font-size="18" letter-spacing="2">PERSONAL SITE / ENTER HERE</text>
       <text x="28" y="59" fill="#171717" font-family="Impact, Haettenschweiler, 'Arial Black', sans-serif" font-size="27" letter-spacing="3">ZHUYU.WANG →</text>
     </g>
 
