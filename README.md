@@ -138,18 +138,23 @@
 <!-- recent-activity:start -->
 <table>
   <tr>
-    <td width="15%" valign="middle"><code>SIGNAL 01</code><br /><sub>08.23</sub></td>
+    <td width="15%" valign="middle"><code>SIGNAL 01</code><br /><sub>08.24</sub></td>
+    <td width="63%" valign="middle"><a href="https://github.com/zuyu-ultra/zuyu-ultra"><strong>zuyu-ultra</strong></a><br /><sub>feat: restore dynamic profile activity</sub></td>
+    <td width="22%" align="right" valign="middle"><a href="https://github.com/zuyu-ultra/zuyu-ultra/commit/afc6b5f514b3c3ba8f413ae8cdd027446bc1b189"><code>afc6b5f ↗</code></a></td>
+  </tr>
+  <tr>
+    <td width="15%" valign="middle"><code>SIGNAL 02</code><br /><sub>08.23</sub></td>
     <td width="63%" valign="middle"><a href="https://github.com/zuyu-ultra/developer-learning"><strong>developer-learning</strong></a><br /><sub>Learning activity: 2026-08-23 (1/1)</sub></td>
     <td width="22%" align="right" valign="middle"><a href="https://github.com/zuyu-ultra/developer-learning/commit/ade30418f10c8f2680161b255fad5fc819015120"><code>ade3041 ↗</code></a></td>
   </tr>
   <tr>
-    <td width="15%" valign="middle"><code>SIGNAL 02</code><br /><sub>08.23</sub></td>
+    <td width="15%" valign="middle"><code>SIGNAL 03</code><br /><sub>08.23</sub></td>
     <td width="63%" valign="middle"><a href="https://github.com/zuyu-ultra/github-contribution-graph-generator"><strong>github-contribution-graph-generator</strong></a><br /><sub>Initial release: GitHub contribution graph generator</sub></td>
     <td width="22%" align="right" valign="middle"><a href="https://github.com/zuyu-ultra/github-contribution-graph-generator/commit/33f755f4b2570e44e6e63e9586be710f78522a44"><code>33f755f ↗</code></a></td>
   </tr>
 </table>
 
-<p align="right"><sub><code>LATEST SIGNAL / 08.23</code> · sourced from public GitHub commits</sub></p>
+<p align="right"><sub><code>LATEST SIGNAL / 08.24</code> · sourced from public GitHub commits</sub></p>
 <!-- recent-activity:end -->
 
 ### 07 — CONTRIBUTION CHASE
