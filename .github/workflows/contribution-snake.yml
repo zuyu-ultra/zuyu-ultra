@@ -26,8 +26,7 @@ jobs:
 
       - name: Publish the animation to the output branch
         run: |
-          mkdir -p "$RUNNER_TEMP/contribution-snake"
-          cp -r dist/. "$RUNNER_TEMP/contribution-snake/"
+          mv dist "$RUNNER_TEMP/contribution-snake"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout --orphan output
