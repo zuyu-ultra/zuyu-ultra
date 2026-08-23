@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">zuyu&#39;s GitHub Stats, Rank: C</title>
-        <desc id="descId">Total Stars Earned: 0, Total Commits  : 956, Total PRs: 0, Total Issues: 0, Contributed to (last year): 0</desc>
+        <desc id="descId">Total Stars Earned: 0, Total Commits  : 957, Total PRs: 0, Total Issues: 0, Contributed to (last year): 0</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 227.5414017113944;
+        stroke-dashoffset: 227.526440082162;
       }
     }
   
@@ -163,7 +163,7 @@
         x="224.01"
         y="12.5"
         data-testid="commits"
-      >956</text>
+      >957</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
@@ -214,5 +214,4 @@
     </svg>
   
         </g>
-      </svg>
-    
+      <style>.stagger{opacity:1!important;animation:none!important}.header,.rank-text,.rank-circle,#rect-mask rect,.lang-progress{animation:none!important}</style></svg>
