@@ -35,7 +35,7 @@ jobs:
 
       - name: Harden cards for static renderers
         run: |
-          perl -0pi -e 's~</svg>\s*$~<style>.stagger{opacity:1!important;animation:none!important}.header,.rank-text,.rank-circle,#rect-mask rect,.lang-progress{animation:none!important}</style></svg>~' profile/*.svg
+          perl -0pi -e 's/^\s*animation:[^\n]*\n//mg; s/opacity: 0;/opacity: 1;/g' profile/*.svg
 
       - name: Commit updated cards
         run: |
