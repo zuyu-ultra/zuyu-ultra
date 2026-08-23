@@ -1,48 +1,103 @@
-<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">zuyu-ultra profile banner</title>
-  <desc id="desc">A dark developer profile banner with the words zuyu-ultra, build learn share, and a terminal-style visual.</desc>
+<svg width="1440" height="420" viewBox="0 0 1440 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title description">
+  <title id="title">Zzeasy developer profile banner</title>
+  <desc id="description">A deep-space dashboard with the labels Zzeasy, Build Learn Ship, web tools, systems, and local-first.</desc>
   <defs>
-    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0D1117"/>
-      <stop offset="0.55" stop-color="#111827"/>
-      <stop offset="1" stop-color="#0D1117"/>
+    <linearGradient id="background" x1="0" y1="0" x2="1440" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#060A11"/>
+      <stop offset="0.52" stop-color="#0A1422"/>
+      <stop offset="1" stop-color="#05070C"/>
     </linearGradient>
-    <linearGradient id="accent" x1="156" y1="54" x2="1044" y2="246" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#58A6FF"/>
-      <stop offset="0.52" stop-color="#A371F7"/>
-      <stop offset="1" stop-color="#39D2C0"/>
+    <radialGradient id="blueGlow" cx="0" cy="0" r="1" gradientTransform="translate(1112 125) rotate(125) scale(412 350)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00D9FF" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#00D9FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="limeGlow" cx="0" cy="0" r="1" gradientTransform="translate(1018 366) rotate(-90) scale(190 470)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#CAFF3D" stop-opacity="0.13"/>
+      <stop offset="1" stop-color="#CAFF3D" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="signal" x1="146" y1="0" x2="1168" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00D9FF"/>
+      <stop offset="0.55" stop-color="#5E8CFF"/>
+      <stop offset="1" stop-color="#CAFF3D"/>
     </linearGradient>
-    <filter id="glow" x="-25%" y="-50%" width="150%" height="200%">
-      <feGaussianBlur stdDeviation="18"/>
-    </filter>
     <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
-      <path d="M36 0H0V36" stroke="#8B949E" stroke-opacity="0.11"/>
+      <path d="M36 0H0V36" stroke="#A7B7C9" stroke-opacity="0.08"/>
     </pattern>
+    <pattern id="dots" width="9" height="9" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1" fill="#A7B7C9" fill-opacity="0.23"/>
+    </pattern>
+    <filter id="softBlur" x="-30%" y="-60%" width="160%" height="220%">
+      <feGaussianBlur stdDeviation="28"/>
+    </filter>
+    <clipPath id="frameClip">
+      <rect width="1440" height="420" rx="20"/>
+    </clipPath>
   </defs>
-  <rect width="1200" height="300" rx="18" fill="url(#background)"/>
-  <rect width="1200" height="300" rx="18" fill="url(#grid)"/>
-  <circle cx="1080" cy="54" r="98" fill="#58A6FF" fill-opacity="0.16" filter="url(#glow)"/>
-  <circle cx="1068" cy="254" r="112" fill="#A371F7" fill-opacity="0.14" filter="url(#glow)"/>
-  <path d="M0 247C178 189 266 291 444 230C654 157 728 179 864 131C1008 81 1065 102 1200 48V300H0V247Z" fill="url(#accent)" fill-opacity="0.09"/>
-  <rect x="72" y="66" width="92" height="92" rx="18" fill="#161B22" stroke="#30363D"/>
-  <path d="M99 97L119 112L99 127" stroke="#58A6FF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M128 130H144" stroke="#39D2C0" stroke-width="8" stroke-linecap="round"/>
-  <text x="194" y="116" fill="#F0F6FC" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="48" font-weight="700" letter-spacing="-2">zuyu-ultra</text>
-  <text x="198" y="158" fill="#8B949E" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="17" letter-spacing="3">BUILD · LEARN · SHARE</text>
-  <rect x="198" y="184" width="293" height="4" rx="2" fill="url(#accent)"/>
-  <g fill="#8B949E" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14">
-    <text x="198" y="225">$ creating useful things, one commit at a time</text>
-    <text x="198" y="252" fill="#58A6FF">▹ web</text>
-    <text x="275" y="252" fill="#A371F7">▹ tools</text>
-    <text x="366" y="252" fill="#39D2C0">▹ experiments</text>
+
+  <g clip-path="url(#frameClip)">
+    <rect width="1440" height="420" fill="url(#background)"/>
+    <rect width="1440" height="420" fill="url(#grid)"/>
+    <rect x="0" y="0" width="1440" height="420" fill="url(#dots)" opacity="0.24"/>
+    <rect width="1440" height="420" fill="url(#blueGlow)"/>
+    <rect width="1440" height="420" fill="url(#limeGlow)"/>
+
+    <path d="M0 335C118 298 196 318 307 273C424 226 465 251 572 209C675 169 729 205 834 165C950 120 1045 170 1147 110C1243 53 1332 73 1440 35V420H0V335Z" fill="#00D9FF" fill-opacity="0.035"/>
+    <path d="M0 340C118 303 196 323 307 278C424 231 465 256 572 214C675 174 729 210 834 170C950 125 1045 175 1147 115C1243 58 1332 78 1440 40" stroke="#00D9FF" stroke-opacity="0.34" stroke-width="1.5"/>
+    <path d="M0 362H1440" stroke="#A7B7C9" stroke-opacity="0.17"/>
+
+    <g opacity="0.92">
+      <rect x="72" y="64" width="108" height="108" rx="18" fill="#0A111C" stroke="#2A3E56"/>
+      <rect x="84" y="76" width="84" height="84" rx="12" fill="#07101B" stroke="#00D9FF" stroke-opacity="0.3"/>
+      <path d="M103 105L124 122L103 139" stroke="#00D9FF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M133 140H150" stroke="#CAFF3D" stroke-width="7" stroke-linecap="round"/>
+      <circle cx="91" cy="84" r="3" fill="#CAFF3D"/>
+    </g>
+
+    <text x="72" y="44" fill="#A7B7C9" font-family="JetBrains Mono, IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="3">DEVELOPER PROFILE / 001</text>
+    <text x="210" y="112" fill="#F2F7FC" font-family="JetBrains Mono, IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="58" font-weight="700" letter-spacing="-3">Zzeasy</text>
+    <text x="214" y="151" fill="#00D9FF" font-family="JetBrains Mono, IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="15" letter-spacing="4">BUILD · LEARN · SHIP</text>
+    <rect x="214" y="174" width="334" height="3" rx="1.5" fill="url(#signal)"/>
+    <text x="214" y="215" fill="#A7B7C9" font-family="JetBrains Mono, IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="16">Making useful software from unfinished ideas.</text>
+    <text x="214" y="247" fill="#728197" font-family="JetBrains Mono, IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="13">WEB TOOLS  /  LOCAL-FIRST  /  CLEAR SYSTEMS</text>
+
+    <g opacity="0.9">
+      <path d="M72 284H600" stroke="#2A3E56"/>
+      <circle cx="72" cy="284" r="4" fill="#00D9FF"/>
+      <text x="88" y="289" fill="#A7B7C9" font-family="JetBrains Mono, IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="2">CURRENT MODE</text>
+      <text x="72" y="324" fill="#F2F7FC" font-family="JetBrains Mono, IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="18" font-weight="600">DESIGNING TOOLS PEOPLE CAN UNDERSTAND</text>
+    </g>
+
+    <g>
+      <rect x="935" y="64" width="366" height="208" rx="16" fill="#07101B" fill-opacity="0.82" stroke="#2A3E56"/>
+      <path d="M935 105H1301" stroke="#2A3E56"/>
+      <circle cx="962" cy="84" r="5" fill="#FF7B72"/>
+      <circle cx="982" cy="84" r="5" fill="#E3B341"/>
+      <circle cx="1002" cy="84" r="5" fill="#CAFF3D"/>
+      <text x="1035" y="89" fill="#728197" font-family="JetBrains Mono, IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="11" letter-spacing="2">SIGNAL_MONITOR</text>
+
+      <text x="962" y="137" fill="#728197" font-family="JetBrains Mono, IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="11" letter-spacing="2">01 / FOCUS</text>
+      <text x="962" y="163" fill="#F2F7FC" font-family="JetBrains Mono, IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="16" font-weight="600">WEB TOOLING</text>
+      <path d="M962 181H1248" stroke="#2A3E56"/>
+
+      <text x="962" y="210" fill="#728197" font-family="JetBrains Mono, IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="11" letter-spacing="2">02 / PRINCIPLE</text>
+      <text x="962" y="236" fill="#F2F7FC" font-family="JetBrains Mono, IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="16" font-weight="600">LOCAL-FIRST</text>
+      <circle cx="1258" cy="230" r="8" fill="#CAFF3D" filter="url(#softBlur)"/>
+      <circle cx="1258" cy="230" r="4" fill="#CAFF3D"/>
+    </g>
+
+    <g opacity="0.65">
+      <path d="M821 319H1368" stroke="#2A3E56"/>
+      <path d="M821 319V346H1368V319" stroke="#2A3E56"/>
+      <path d="M853 337H892" stroke="#00D9FF" stroke-width="3" stroke-linecap="round"/>
+      <path d="M913 337H964" stroke="#5E8CFF" stroke-width="3" stroke-linecap="round"/>
+      <path d="M985 337H1060" stroke="#CAFF3D" stroke-width="3" stroke-linecap="round"/>
+      <text x="1090" y="341" fill="#A7B7C9" font-family="JetBrains Mono, IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="11" letter-spacing="2">SYSTEM / ONLINE</text>
+    </g>
+
+    <g fill="#728197" font-family="JetBrains Mono, IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="10" letter-spacing="1.5">
+      <text x="72" y="390">ZUYU-ULTRA // GITHUB</text>
+      <text x="1200" y="390">01.00.000</text>
+    </g>
   </g>
-  <g opacity="0.85">
-    <rect x="936" y="100" width="176" height="112" rx="12" fill="#0D1117" stroke="#30363D"/>
-    <circle cx="960" cy="124" r="6" fill="#FF7B72"/>
-    <circle cx="980" cy="124" r="6" fill="#E3B341"/>
-    <circle cx="1000" cy="124" r="6" fill="#3FB950"/>
-    <path d="M960 154H1042" stroke="#30363D" stroke-width="8" stroke-linecap="round"/>
-    <path d="M960 178H1085" stroke="#30363D" stroke-width="8" stroke-linecap="round"/>
-    <path d="M960 202H1024" stroke="url(#accent)" stroke-width="8" stroke-linecap="round"/>
-  </g>
+  <rect x="0.75" y="0.75" width="1438.5" height="418.5" rx="19.25" stroke="#2A3E56" stroke-opacity="0.9" stroke-width="1.5"/>
 </svg>
