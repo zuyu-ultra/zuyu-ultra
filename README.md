@@ -139,8 +139,8 @@
 <table>
   <tr>
     <td width="15%" valign="middle"><code>SIGNAL 01</code><br /><sub>08.24</sub></td>
-    <td width="63%" valign="middle"><a href="https://github.com/zuyu-ultra/zuyu-ultra"><strong>zuyu-ultra</strong></a><br /><sub>feat: restore dynamic profile activity</sub></td>
-    <td width="22%" align="right" valign="middle"><a href="https://github.com/zuyu-ultra/zuyu-ultra/commit/afc6b5f514b3c3ba8f413ae8cdd027446bc1b189"><code>afc6b5f ↗</code></a></td>
+    <td width="63%" valign="middle"><a href="https://github.com/zuyu-ultra/zuyu-ultra"><strong>zuyu-ultra</strong></a><br /><sub>fix: publish clean snake assets</sub></td>
+    <td width="22%" align="right" valign="middle"><a href="https://github.com/zuyu-ultra/zuyu-ultra/commit/2ef4cf7151ac397cad1c2d31366e91516693951e"><code>2ef4cf7 ↗</code></a></td>
   </tr>
   <tr>
     <td width="15%" valign="middle"><code>SIGNAL 02</code><br /><sub>08.23</sub></td>
