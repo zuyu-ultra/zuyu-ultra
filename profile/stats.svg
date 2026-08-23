@@ -9,11 +9,11 @@
         aria-labelledby="descId"
       >
         <title id="titleId">zuyu&#39;s GitHub Stats, Rank: C</title>
-        <desc id="descId">Total Stars Earned: 0, Total Commits  : 958, Total PRs: 0, Total Issues: 0, Contributed to (last year): 0</desc>
+        <desc id="descId">Total Stars Earned: 0, Total Commits  : 960, Total PRs: 0, Total Issues: 0, Contributed to (last year): 0</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
-            fill: #00D9FF;
+            fill: #171717;
           }
           @supports(-moz-appearance: auto) {
             /* Selector detects Firefox */
@@ -21,7 +21,7 @@
           }
           
     .stat {
-      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #A7B7C9;
+      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #171717;
     }
     @supports(-moz-appearance: auto) {
       /* Selector detects Firefox */
@@ -31,7 +31,7 @@
       opacity: 1;
     }
     .rank-text {
-      font: 800 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: #A7B7C9;
+      font: 800 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: #171717;
     }
     .rank-percentile-header {
       font-size: 14px;
@@ -43,18 +43,18 @@
     .not_bold { font-weight: 400 }
     .bold { font-weight: 700 }
     .icon {
-      fill: #CAFF3D;
+      fill: #E33A32;
       display: block;
     }
 
     .rank-circle-rim {
-      stroke: #00D9FF;
+      stroke: #1D4ED8;
       fill: none;
       stroke-width: 6;
       opacity: 0.2;
     }
     .rank-circle {
-      stroke: #00D9FF;
+      stroke: #1D4ED8;
       stroke-dasharray: 250;
       fill: none;
       stroke-width: 6;
@@ -69,7 +69,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 227.51148881994735;
+        stroke-dashoffset: 227.48161736784283;
       }
     }
   
@@ -103,12 +103,12 @@
           data-testid="card-bg"
           x="0.5"
           y="0.5"
-          rx="4.5"
+          rx="2"
           height="99%"
-          stroke="#e4e2e2"
+          stroke="#171717"
           width="466"
-          fill="#0A0F18"
-          stroke-opacity="0"
+          fill="#F7F0DD"
+          stroke-opacity="1"
         />
 
         
@@ -159,7 +159,7 @@
         x="224.01"
         y="12.5"
         data-testid="commits"
-      >958</text>
+      >960</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">

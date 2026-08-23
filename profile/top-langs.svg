@@ -13,7 +13,7 @@
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
-            fill: #00D9FF;
+            fill: #E33A32;
           }
           @supports(-moz-appearance: auto) {
             /* Selector detects Firefox */
@@ -37,7 +37,7 @@
       }
     }
     .stat {
-      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #A7B7C9;
+      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #171717;
     }
     @supports(-moz-appearance: auto) {
       /* Selector detects Firefox */
@@ -46,7 +46,7 @@
     .bold { font-weight: 700 }
     .lang-name {
       font: 400 11px "Segoe UI", Ubuntu, Sans-Serif;
-      fill: #A7B7C9;
+      fill: #171717;
     }
     .stagger {
       opacity: 1;
@@ -85,12 +85,12 @@
           data-testid="card-bg"
           x="0.5"
           y="0.5"
-          rx="4.5"
+          rx="2"
           height="99%"
-          stroke="#e4e2e2"
+          stroke="#171717"
           width="299"
-          fill="#0A0F18"
-          stroke-opacity="0"
+          fill="#F7F0DD"
+          stroke-opacity="1"
         />
 
         
