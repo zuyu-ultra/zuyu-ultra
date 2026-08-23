@@ -137,9 +137,9 @@
 ### 06 — DEVELOPMENT TELEMETRY
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=zuyu-ultra&show_icons=true&hide_title=true&hide_border=true&theme=github_dark&rank_icon=github&include_all_commits=true" alt="zuyu-ultra's GitHub statistics" />
+  <img height="170" src="./profile/stats.svg" alt="zuyu-ultra's GitHub statistics" />
   <img height="170" src="https://streak-stats.demolab.com?user=zuyu-ultra&theme=github-dark-blue&hide_border=true" alt="zuyu-ultra's contribution streak" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zuyu-ultra&layout=compact&hide_border=true&theme=github_dark&langs_count=6" alt="zuyu-ultra's top languages" />
+  <img height="170" src="./profile/top-langs.svg" alt="zuyu-ultra's top languages" />
 </p>
 
 <p align="center">
