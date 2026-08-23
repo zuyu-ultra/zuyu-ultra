@@ -33,6 +33,10 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           fail_on_error: true
 
+      - name: Harden cards for static renderers
+        run: |
+          perl -0pi -e 's~</svg>\s*$~<style>.stagger{opacity:1!important;animation:none!important}.header,.rank-text,.rank-circle,#rect-mask rect,.lang-progress{animation:none!important}</style></svg>~' profile/*.svg
+
       - name: Commit updated cards
         run: |
           git config user.name "github-actions[bot]"
