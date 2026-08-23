@@ -9,12 +9,11 @@
         aria-labelledby="descId"
       >
         <title id="titleId">zuyu&#39;s GitHub Stats, Rank: C</title>
-        <desc id="descId">Total Stars Earned: 0, Total Commits  : 957, Total PRs: 0, Total Issues: 0, Contributed to (last year): 0</desc>
+        <desc id="descId">Total Stars Earned: 0, Total Commits  : 958, Total PRs: 0, Total Issues: 0, Contributed to (last year): 0</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
             fill: #00D9FF;
-            animation: fadeInAnimation 0.8s ease-in-out forwards;
           }
           @supports(-moz-appearance: auto) {
             /* Selector detects Firefox */
@@ -29,12 +28,10 @@
       .stat { font-size:12px; }
     }
     .stagger {
-      opacity: 0;
-      animation: fadeInAnimation 0.3s ease-in-out forwards;
+      opacity: 1;
     }
     .rank-text {
       font: 800 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: #A7B7C9;
-      animation: scaleInAnimation 0.3s ease-in-out forwards;
     }
     .rank-percentile-header {
       font-size: 14px;
@@ -65,7 +62,6 @@
       opacity: 0.8;
       transform-origin: -10px 8px;
       transform: rotate(-90deg);
-      animation: rankAnimation 1s forwards ease-in-out;
     }
     
     @keyframes rankAnimation {
@@ -73,7 +69,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 227.526440082162;
+        stroke-dashoffset: 227.51148881994735;
       }
     }
   
@@ -91,7 +87,7 @@
       }
       @keyframes fadeInAnimation {
         from {
-          opacity: 0;
+          opacity: 1;
         }
         to {
           opacity: 1;
@@ -163,7 +159,7 @@
         x="224.01"
         y="12.5"
         data-testid="commits"
-      >957</text>
+      >958</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
@@ -214,4 +210,5 @@
     </svg>
   
         </g>
-      <style>.stagger{opacity:1!important;animation:none!important}.header,.rank-text,.rank-circle,#rect-mask rect,.lang-progress{animation:none!important}</style></svg>
+      </svg>
+    
