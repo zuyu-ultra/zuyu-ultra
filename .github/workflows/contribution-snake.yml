@@ -1,0 +1,38 @@
+name: Update contribution snake
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out the profile repository
+        uses: actions/checkout@v6
+
+      - name: Generate the animated contribution snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg?palette=github-light&color_snake=#E33A32
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#F7D647
+
+      - name: Publish the animation to the output branch
+        run: |
+          mkdir -p "$RUNNER_TEMP/contribution-snake"
+          cp -r dist/. "$RUNNER_TEMP/contribution-snake/"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan output
+          git rm -rf .
+          cp -r "$RUNNER_TEMP/contribution-snake/." .
+          git add --all
+          git commit -m "chore: update contribution snake [skip ci]"
+          git push --force origin output

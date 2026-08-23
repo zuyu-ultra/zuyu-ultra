@@ -131,13 +131,40 @@
 
 ---
 
-### 06 — LIVE SCOREBOARD
+### 06 — CURRENT TRANSMISSIONS
+
+<p><sub>A live dispatch assembled from my latest public commits. Repository, message, date, and SHA update automatically as new work lands.</sub></p>
+
+<!-- recent-activity:start -->
+<table>
+  <tr>
+    <td width="15%" valign="middle"><code>SIGNAL 01</code><br /><sub>08.23</sub></td>
+    <td width="63%" valign="middle"><a href="https://github.com/zuyu-ultra/developer-learning"><strong>developer-learning</strong></a><br /><sub>Learning activity: 2026-08-23 (1/1)</sub></td>
+    <td width="22%" align="right" valign="middle"><a href="https://github.com/zuyu-ultra/developer-learning/commit/ade30418f10c8f2680161b255fad5fc819015120"><code>ade3041 ↗</code></a></td>
+  </tr>
+  <tr>
+    <td width="15%" valign="middle"><code>SIGNAL 02</code><br /><sub>08.23</sub></td>
+    <td width="63%" valign="middle"><a href="https://github.com/zuyu-ultra/github-contribution-graph-generator"><strong>github-contribution-graph-generator</strong></a><br /><sub>Initial release: GitHub contribution graph generator</sub></td>
+    <td width="22%" align="right" valign="middle"><a href="https://github.com/zuyu-ultra/github-contribution-graph-generator/commit/33f755f4b2570e44e6e63e9586be710f78522a44"><code>33f755f ↗</code></a></td>
+  </tr>
+</table>
+
+<p align="right"><sub><code>LATEST SIGNAL / 08.23</code> · sourced from public GitHub commits</sub></p>
+<!-- recent-activity:end -->
+
+### 07 — CONTRIBUTION CHASE
 
 <p align="center">
-  <img width="100%" src="./profile/scoreboard.svg" alt="zuyu's live GitHub scoreboard" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zuyu-ultra/zuyu-ultra/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zuyu-ultra/zuyu-ultra/output/github-contribution-grid-snake.svg" />
+    <img width="100%" src="https://raw.githubusercontent.com/zuyu-ultra/zuyu-ultra/output/github-contribution-grid-snake.svg" alt="Animated snake chasing zuyu's GitHub contributions" />
+  </picture>
 </p>
 
-### 07 — NEXT PANEL
+<p align="center"><sub><code>LIVE CONTRIBUTION DATA / REFRESHED EVERY 6 HOURS</code></sub></p>
+
+### 08 — NEXT PANEL
 
 <table>
   <tr>

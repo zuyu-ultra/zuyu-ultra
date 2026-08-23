@@ -1,8 +1,8 @@
-name: Update profile scoreboard
+name: Update recent activity
 
 on:
   schedule:
-    - cron: "0 3 * * *"
+    - cron: "17 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -11,23 +11,24 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
       - name: Check out the profile repository
         uses: actions/checkout@v6
 
-      - name: Generate the self-hosted scoreboard
-        run: node scripts/generate-scoreboard.mjs
+      - name: Refresh the commit transmission log
+        run: node scripts/update-recent-activity.mjs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_USER: ${{ github.repository_owner }}
 
-      - name: Commit the updated scoreboard
+      - name: Commit the updated activity
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/scoreboard.svg
+          git add README.md
           if git diff --cached --quiet; then
             exit 0
           fi
-          git commit -m "chore: update profile scoreboard [skip ci]"
+          git commit -m "chore: refresh recent activity [skip ci]"
           git push
