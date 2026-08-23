@@ -2,22 +2,24 @@
 
 <p align="center">
   <a href="https://github.com/zuyu-ultra">
-    <img src="https://raw.githubusercontent.com/zuyu-ultra/zuyu-ultra/main/assets/profile-banner.svg" alt="Zzeasy — developer profile" width="100%" />
+    <img src="https://raw.githubusercontent.com/zuyu-ultra/zuyu-ultra/main/assets/profile-banner.svg" alt="zuyu — Wang Zhuyu's developer profile" width="100%" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://github.com/zuyu-ultra?tab=followers">
-    <img src="https://img.shields.io/github/followers/zuyu-ultra?label=FOLLOW&style=flat-square&color=00D9FF&labelColor=0A0F18&logo=github" alt="GitHub followers" />
+    <img src="https://img.shields.io/github/followers/zuyu-ultra?label=FOLLOW&style=flat-square&color=1D4ED8&labelColor=171717&logo=github" alt="GitHub followers" />
   </a>
   <a href="https://github.com/zuyu-ultra?tab=repositories">
-    <img src="https://img.shields.io/badge/STATUS-BUILDING-CAFF3D?style=flat-square&labelColor=0A0F18" alt="Currently building" />
+    <img src="https://img.shields.io/badge/STATUS-BUILDING-F7D647?style=flat-square&labelColor=171717" alt="Currently building" />
   </a>
-  <img src="https://img.shields.io/badge/MODE-LOCAL--FIRST-5E8CFF?style=flat-square&labelColor=0A0F18" alt="Local-first mindset" />
+  <a href="https://zhuyu.wang">
+    <img src="https://img.shields.io/badge/SITE-ZHUYU.WANG-E33A32?style=flat-square&labelColor=171717" alt="Personal site zhuyu.wang" />
+  </a>
 </p>
 
 <p align="center">
-  <code>PROFILE / ZZEASY</code>&nbsp;&nbsp;•&nbsp;&nbsp;<code>WEB · TOOLS · SYSTEMS</code>&nbsp;&nbsp;•&nbsp;&nbsp;<code>BUILD · LEARN · SHIP</code>
+  <code>PROFILE / ZUYU</code>&nbsp;&nbsp;•&nbsp;&nbsp;<code>WANG ZHUYU</code>&nbsp;&nbsp;•&nbsp;&nbsp;<code>BUILD · LEARN · SHIP</code>
 </p>
 
 <table>
@@ -25,7 +27,7 @@
     <td width="56%" valign="top">
       <h3>01 — SYSTEM PROFILE</h3>
       <p>
-        I turn loose ideas into practical software. My current work lives around thoughtful web tooling, developer experience, and small utilities that make complex information easier to see and act on.
+        Hi, I'm <strong>zuyu</strong> — <strong>Wang Zhuyu</strong>. I turn loose ideas into practical software. My current work lives around thoughtful web tooling, developer experience, and small utilities that make complex information easier to see and act on.
       </p>
       <p>
         I care about calm interfaces, local-first workflows, and automation that remains reviewable by the person using it.
@@ -37,6 +39,7 @@
         <code>[ ACTIVE ]</code> <a href="https://github.com/zuyu-ultra/github-contribution-graph-generator">Contribution Graph Generator</a><br />
         <code>[ EXPLORING ]</code> TypeScript · React · Vite<br />
         <code>[ BUILDING ]</code> Web tools with clear, inspectable outputs<br />
+        <code>[ HOMEPAGE ]</code> <a href="https://zhuyu.wang">zhuyu.wang</a> · launching later<br />
         <code>[ KEEPING ]</code> Java and JavaScript experiments in motion
       </p>
     </td>
@@ -157,5 +160,5 @@
 </p>
 
 <p align="center">
-  <sub><code>END OF TRANSMISSION</code> · Building useful things, one considered commit at a time.</sub>
+  <sub><a href="https://zhuyu.wang"><code>ZHUYU.WANG</code></a> · Personal site coming soon · Building useful things, one considered commit at a time.</sub>
 </p>

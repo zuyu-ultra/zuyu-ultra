@@ -1,103 +1,100 @@
 <svg width="1440" height="420" viewBox="0 0 1440 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title description">
-  <title id="title">Zzeasy developer profile banner</title>
-  <desc id="description">A deep-space dashboard with the labels Zzeasy, Build Learn Ship, web tools, systems, and local-first.</desc>
+  <title id="title">zuyu — Wang Zhuyu developer profile</title>
+  <desc id="description">An American comic-book banner with bold ink lines, halftone dots, action rays, and a laptop bursting from the page.</desc>
   <defs>
-    <linearGradient id="background" x1="0" y1="0" x2="1440" y2="420" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#060A11"/>
-      <stop offset="0.52" stop-color="#0A1422"/>
-      <stop offset="1" stop-color="#05070C"/>
-    </linearGradient>
-    <radialGradient id="blueGlow" cx="0" cy="0" r="1" gradientTransform="translate(1112 125) rotate(125) scale(412 350)" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#00D9FF" stop-opacity="0.28"/>
-      <stop offset="1" stop-color="#00D9FF" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="limeGlow" cx="0" cy="0" r="1" gradientTransform="translate(1018 366) rotate(-90) scale(190 470)" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#CAFF3D" stop-opacity="0.13"/>
-      <stop offset="1" stop-color="#CAFF3D" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="signal" x1="146" y1="0" x2="1168" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#00D9FF"/>
-      <stop offset="0.55" stop-color="#5E8CFF"/>
-      <stop offset="1" stop-color="#CAFF3D"/>
-    </linearGradient>
-    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
-      <path d="M36 0H0V36" stroke="#A7B7C9" stroke-opacity="0.08"/>
+    <pattern id="inkDots" width="12" height="12" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="2.2" fill="#171717"/>
     </pattern>
-    <pattern id="dots" width="9" height="9" patternUnits="userSpaceOnUse">
-      <circle cx="1.5" cy="1.5" r="1" fill="#A7B7C9" fill-opacity="0.23"/>
+    <pattern id="blueDots" width="13" height="13" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="2.6" fill="#F7F0DD"/>
     </pattern>
-    <filter id="softBlur" x="-30%" y="-60%" width="160%" height="220%">
-      <feGaussianBlur stdDeviation="28"/>
-    </filter>
-    <clipPath id="frameClip">
-      <rect width="1440" height="420" rx="20"/>
+    <pattern id="redDots" width="11" height="11" patternUnits="userSpaceOnUse">
+      <circle cx="2.5" cy="2.5" r="2" fill="#171717"/>
+    </pattern>
+    <pattern id="hatch" width="18" height="18" patternUnits="userSpaceOnUse" patternTransform="rotate(18)">
+      <path d="M0 0V18" stroke="#171717" stroke-width="4"/>
+    </pattern>
+    <clipPath id="panelClip">
+      <rect width="1440" height="420" rx="16"/>
     </clipPath>
   </defs>
 
-  <g clip-path="url(#frameClip)">
-    <rect width="1440" height="420" fill="url(#background)"/>
-    <rect width="1440" height="420" fill="url(#grid)"/>
-    <rect x="0" y="0" width="1440" height="420" fill="url(#dots)" opacity="0.24"/>
-    <rect width="1440" height="420" fill="url(#blueGlow)"/>
-    <rect width="1440" height="420" fill="url(#limeGlow)"/>
+  <g clip-path="url(#panelClip)">
+    <rect width="1440" height="420" fill="#F7F0DD"/>
 
-    <path d="M0 335C118 298 196 318 307 273C424 226 465 251 572 209C675 169 729 205 834 165C950 120 1045 170 1147 110C1243 53 1332 73 1440 35V420H0V335Z" fill="#00D9FF" fill-opacity="0.035"/>
-    <path d="M0 340C118 303 196 323 307 278C424 231 465 256 572 214C675 174 729 210 834 170C950 125 1045 175 1147 115C1243 58 1332 78 1440 40" stroke="#00D9FF" stroke-opacity="0.34" stroke-width="1.5"/>
-    <path d="M0 362H1440" stroke="#A7B7C9" stroke-opacity="0.17"/>
+    <!-- Printed comic fields -->
+    <path d="M0 0H430L310 420H0V0Z" fill="#1D4ED8"/>
+    <path d="M0 0H430L310 420H0V0Z" fill="url(#blueDots)" opacity="0.34"/>
+    <path d="M872 0H1440V420H792L872 0Z" fill="#E33A32"/>
+    <path d="M872 0H1440V420H792L872 0Z" fill="url(#redDots)" opacity="0.2"/>
+    <path d="M756 -20H936L826 440H646L756 -20Z" fill="url(#hatch)" opacity="0.18"/>
 
-    <g opacity="0.92">
-      <rect x="72" y="64" width="108" height="108" rx="18" fill="#0A111C" stroke="#2A3E56"/>
-      <rect x="84" y="76" width="84" height="84" rx="12" fill="#07101B" stroke="#00D9FF" stroke-opacity="0.3"/>
-      <path d="M103 105L124 122L103 139" stroke="#00D9FF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M133 140H150" stroke="#CAFF3D" stroke-width="7" stroke-linecap="round"/>
-      <circle cx="91" cy="84" r="3" fill="#CAFF3D"/>
+    <!-- Panel seams and speed lines -->
+    <path d="M430 0L310 420" stroke="#171717" stroke-width="10"/>
+    <path d="M872 0L792 420" stroke="#171717" stroke-width="10"/>
+    <g stroke="#171717" stroke-width="5" stroke-linecap="round">
+      <path d="M908 62L1030 132"/>
+      <path d="M892 112L1010 159"/>
+      <path d="M878 172L1002 184"/>
+      <path d="M864 242L1000 222"/>
+      <path d="M850 310L1007 257"/>
+      <path d="M838 367L1025 285"/>
     </g>
 
-    <text x="72" y="44" fill="#A7B7C9" font-family="JetBrains Mono, IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="3">DEVELOPER PROFILE / 001</text>
-    <text x="210" y="112" fill="#F2F7FC" font-family="JetBrains Mono, IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="58" font-weight="700" letter-spacing="-3">Zzeasy</text>
-    <text x="214" y="151" fill="#00D9FF" font-family="JetBrains Mono, IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="15" letter-spacing="4">BUILD · LEARN · SHIP</text>
-    <rect x="214" y="174" width="334" height="3" rx="1.5" fill="url(#signal)"/>
-    <text x="214" y="215" fill="#A7B7C9" font-family="JetBrains Mono, IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="16">Making useful software from unfinished ideas.</text>
-    <text x="214" y="247" fill="#728197" font-family="JetBrains Mono, IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="13">WEB TOOLS  /  LOCAL-FIRST  /  CLEAR SYSTEMS</text>
-
-    <g opacity="0.9">
-      <path d="M72 284H600" stroke="#2A3E56"/>
-      <circle cx="72" cy="284" r="4" fill="#00D9FF"/>
-      <text x="88" y="289" fill="#A7B7C9" font-family="JetBrains Mono, IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="2">CURRENT MODE</text>
-      <text x="72" y="324" fill="#F2F7FC" font-family="JetBrains Mono, IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="18" font-weight="600">DESIGNING TOOLS PEOPLE CAN UNDERSTAND</text>
+    <!-- Identity caption -->
+    <g transform="translate(72 42) rotate(-2)">
+      <rect x="6" y="7" width="304" height="54" fill="#171717"/>
+      <rect width="304" height="54" fill="#E33A32" stroke="#171717" stroke-width="6"/>
+      <text x="22" y="37" fill="#FFFFFF" font-family="Impact, Haettenschweiler, 'Arial Black', sans-serif" font-size="25" letter-spacing="2">WANG ZHUYU / DEVELOPER</text>
     </g>
 
-    <g>
-      <rect x="935" y="64" width="366" height="208" rx="16" fill="#07101B" fill-opacity="0.82" stroke="#2A3E56"/>
-      <path d="M935 105H1301" stroke="#2A3E56"/>
-      <circle cx="962" cy="84" r="5" fill="#FF7B72"/>
-      <circle cx="982" cy="84" r="5" fill="#E3B341"/>
-      <circle cx="1002" cy="84" r="5" fill="#CAFF3D"/>
-      <text x="1035" y="89" fill="#728197" font-family="JetBrains Mono, IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="11" letter-spacing="2">SIGNAL_MONITOR</text>
+    <!-- Main comic wordmark, with offset print shadow -->
+    <text x="84" y="228" fill="#E33A32" stroke="#171717" stroke-width="11" paint-order="stroke fill" font-family="Impact, Haettenschweiler, 'Arial Black', sans-serif" font-size="142" letter-spacing="4" transform="rotate(-3 84 228)">ZUYU</text>
+    <text x="72" y="214" fill="#F7D647" stroke="#171717" stroke-width="11" paint-order="stroke fill" font-family="Impact, Haettenschweiler, 'Arial Black', sans-serif" font-size="142" letter-spacing="4" transform="rotate(-3 72 214)">ZUYU</text>
+    <path d="M82 244H641" stroke="#171717" stroke-width="8"/>
+    <text x="84" y="276" fill="#171717" font-family="Impact, Haettenschweiler, 'Arial Black', sans-serif" font-size="21" letter-spacing="2">WEB TOOLS · CLEAR SYSTEMS · REAL OUTPUTS</text>
 
-      <text x="962" y="137" fill="#728197" font-family="JetBrains Mono, IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="11" letter-spacing="2">01 / FOCUS</text>
-      <text x="962" y="163" fill="#F2F7FC" font-family="JetBrains Mono, IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="16" font-weight="600">WEB TOOLING</text>
-      <path d="M962 181H1248" stroke="#2A3E56"/>
-
-      <text x="962" y="210" fill="#728197" font-family="JetBrains Mono, IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="11" letter-spacing="2">02 / PRINCIPLE</text>
-      <text x="962" y="236" fill="#F2F7FC" font-family="JetBrains Mono, IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="16" font-weight="600">LOCAL-FIRST</text>
-      <circle cx="1258" cy="230" r="8" fill="#CAFF3D" filter="url(#softBlur)"/>
-      <circle cx="1258" cy="230" r="4" fill="#CAFF3D"/>
+    <!-- Website teaser caption -->
+    <g transform="translate(70 310) rotate(1)">
+      <path d="M0 0H660L638 72H18L0 0Z" fill="#F7D647" stroke="#171717" stroke-width="7" stroke-linejoin="round"/>
+      <text x="28" y="31" fill="#171717" font-family="Impact, Haettenschweiler, 'Arial Black', sans-serif" font-size="18" letter-spacing="2">PERSONAL SITE / COMING SOON</text>
+      <text x="28" y="59" fill="#171717" font-family="Impact, Haettenschweiler, 'Arial Black', sans-serif" font-size="27" letter-spacing="3">ZHUYU.WANG →</text>
     </g>
 
-    <g opacity="0.65">
-      <path d="M821 319H1368" stroke="#2A3E56"/>
-      <path d="M821 319V346H1368V319" stroke="#2A3E56"/>
-      <path d="M853 337H892" stroke="#00D9FF" stroke-width="3" stroke-linecap="round"/>
-      <path d="M913 337H964" stroke="#5E8CFF" stroke-width="3" stroke-linecap="round"/>
-      <path d="M985 337H1060" stroke="#CAFF3D" stroke-width="3" stroke-linecap="round"/>
-      <text x="1090" y="341" fill="#A7B7C9" font-family="JetBrains Mono, IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="11" letter-spacing="2">SYSTEM / ONLINE</text>
+    <!-- Action burst -->
+    <polygon points="1164,78 1192,139 1267,92 1253,166 1354,149 1289,207 1393,238 1282,257 1358,332 1257,301 1238,390 1184,321 1126,390 1119,306 1015,346 1070,270 972,238 1074,203 1011,128 1107,162" fill="#F7D647" stroke="#171717" stroke-width="8" stroke-linejoin="round"/>
+    <polygon points="1164,116 1181,161 1230,129 1221,181 1281,175 1240,214 1301,236 1238,248 1274,295 1218,273 1204,327 1173,281 1138,327 1132,274 1074,298 1108,254 1052,237 1108,211 1074,168 1135,183" fill="url(#inkDots)" opacity="0.22"/>
+
+    <!-- Comic laptop line art -->
+    <g transform="rotate(-4 1174 238)">
+      <rect x="1035" y="158" width="280" height="158" rx="10" fill="#FFFFFF" stroke="#171717" stroke-width="9"/>
+      <rect x="1054" y="177" width="242" height="119" fill="#1D4ED8" stroke="#171717" stroke-width="5"/>
+      <path d="M1102 211L1078 236L1102 261" stroke="#F7D647" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M1247 211L1271 236L1247 261" stroke="#F7D647" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M1174 203L1150 270" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round"/>
+      <path d="M1007 316H1342L1377 352H971L1007 316Z" fill="#F7F0DD" stroke="#171717" stroke-width="9" stroke-linejoin="round"/>
+      <path d="M1127 330H1220" stroke="#171717" stroke-width="6" stroke-linecap="round"/>
     </g>
 
-    <g fill="#728197" font-family="JetBrains Mono, IBM Plex Mono, SFMono-Regular, Menlo, monospace" font-size="10" letter-spacing="1.5">
-      <text x="72" y="390">ZUYU-ULTRA // GITHUB</text>
-      <text x="1200" y="390">01.00.000</text>
+    <!-- Speech balloon -->
+    <g transform="translate(1042 26) rotate(2)">
+      <path d="M15 5H319C330 5 339 14 339 25V88C339 99 330 108 319 108H116L77 137L85 108H15C4 108 -5 99 -5 88V25C-5 14 4 5 15 5Z" fill="#FFFFFF" stroke="#171717" stroke-width="7" stroke-linejoin="round"/>
+      <text x="22" y="48" fill="#171717" font-family="Impact, Haettenschweiler, 'Arial Black', sans-serif" font-size="28" letter-spacing="1">BUILD IT.</text>
+      <text x="22" y="83" fill="#E33A32" stroke="#171717" stroke-width="1" paint-order="stroke fill" font-family="Impact, Haettenschweiler, 'Arial Black', sans-serif" font-size="36" letter-spacing="2">SHIP IT!</text>
+    </g>
+
+    <!-- Registration marks and ink texture -->
+    <g stroke="#171717" stroke-width="3" opacity="0.75">
+      <path d="M24 24H58M41 7V41"/>
+      <circle cx="41" cy="24" r="11"/>
+      <path d="M1382 392H1416M1399 375V409"/>
+      <circle cx="1399" cy="392" r="11"/>
+    </g>
+    <g fill="#171717" opacity="0.2">
+      <circle cx="680" cy="54" r="3"/><circle cx="700" cy="44" r="2"/><circle cx="720" cy="57" r="3"/>
+      <circle cx="749" cy="362" r="2"/><circle cx="767" cy="348" r="3"/><circle cx="787" cy="367" r="2"/>
     </g>
   </g>
-  <rect x="0.75" y="0.75" width="1438.5" height="418.5" rx="19.25" stroke="#2A3E56" stroke-opacity="0.9" stroke-width="1.5"/>
+
+  <rect x="5" y="5" width="1430" height="410" rx="11" stroke="#171717" stroke-width="10"/>
 </svg>
