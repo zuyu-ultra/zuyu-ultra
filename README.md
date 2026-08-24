@@ -139,13 +139,13 @@
 <table>
   <tr>
     <td width="15%" valign="middle"><code>SIGNAL 01</code><br /><sub>08.24</sub></td>
-    <td width="63%" valign="middle"><a href="https://github.com/zuyu-ultra/zuyu-ultra"><strong>zuyu-ultra</strong></a><br /><sub>fix: publish clean snake assets</sub></td>
-    <td width="22%" align="right" valign="middle"><a href="https://github.com/zuyu-ultra/zuyu-ultra/commit/2ef4cf7151ac397cad1c2d31366e91516693951e"><code>2ef4cf7 ↗</code></a></td>
+    <td width="63%" valign="middle"><a href="https://github.com/zuyu-ultra/developer-learning"><strong>developer-learning</strong></a><br /><sub>docs: add contribution guide</sub></td>
+    <td width="22%" align="right" valign="middle"><a href="https://github.com/zuyu-ultra/developer-learning/commit/060ef7e08be6d72f6f15095aeb5b5c6160485f59"><code>060ef7e ↗</code></a></td>
   </tr>
   <tr>
-    <td width="15%" valign="middle"><code>SIGNAL 02</code><br /><sub>08.23</sub></td>
-    <td width="63%" valign="middle"><a href="https://github.com/zuyu-ultra/developer-learning"><strong>developer-learning</strong></a><br /><sub>Learning activity: 2026-08-23 (1/1)</sub></td>
-    <td width="22%" align="right" valign="middle"><a href="https://github.com/zuyu-ultra/developer-learning/commit/ade30418f10c8f2680161b255fad5fc819015120"><code>ade3041 ↗</code></a></td>
+    <td width="15%" valign="middle"><code>SIGNAL 02</code><br /><sub>08.24</sub></td>
+    <td width="63%" valign="middle"><a href="https://github.com/zuyu-ultra/zuyu-ultra"><strong>zuyu-ultra</strong></a><br /><sub>fix: publish clean snake assets</sub></td>
+    <td width="22%" align="right" valign="middle"><a href="https://github.com/zuyu-ultra/zuyu-ultra/commit/2ef4cf7151ac397cad1c2d31366e91516693951e"><code>2ef4cf7 ↗</code></a></td>
   </tr>
   <tr>
     <td width="15%" valign="middle"><code>SIGNAL 03</code><br /><sub>08.23</sub></td>
