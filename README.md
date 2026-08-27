@@ -138,23 +138,28 @@
 <!-- recent-activity:start -->
 <table>
   <tr>
-    <td width="15%" valign="middle"><code>SIGNAL 01</code><br /><sub>08.27</sub></td>
+    <td width="15%" valign="middle"><code>SIGNAL 01</code><br /><sub>08.28</sub></td>
+    <td width="63%" valign="middle"><a href="https://github.com/zuyu-ultra/sdd-ultra"><strong>sdd-ultra</strong></a><br /><sub>Merge pull request #1 from zuyu-ultra/codex/consolidate-sdd-skill</sub></td>
+    <td width="22%" align="right" valign="middle"><a href="https://github.com/zuyu-ultra/sdd-ultra/commit/91594588c03f73a86b298e64afdae938dde8fbf9"><code>9159458 ↗</code></a></td>
+  </tr>
+  <tr>
+    <td width="15%" valign="middle"><code>SIGNAL 02</code><br /><sub>08.27</sub></td>
     <td width="63%" valign="middle"><a href="https://github.com/zuyu-ultra/github-contribution-graph-generator"><strong>github-contribution-graph-generator</strong></a><br /><sub>Merge pull request #2 from zuyu-ultra/redesign-frontend</sub></td>
     <td width="22%" align="right" valign="middle"><a href="https://github.com/zuyu-ultra/github-contribution-graph-generator/commit/204d1a0fe4ca03d973741d58b85219c782c89a86"><code>204d1a0 ↗</code></a></td>
   </tr>
   <tr>
-    <td width="15%" valign="middle"><code>SIGNAL 02</code><br /><sub>08.24</sub></td>
+    <td width="15%" valign="middle"><code>SIGNAL 03</code><br /><sub>08.24</sub></td>
     <td width="63%" valign="middle"><a href="https://github.com/zuyu-ultra/developer-learning"><strong>developer-learning</strong></a><br /><sub>docs: add contribution guide</sub></td>
     <td width="22%" align="right" valign="middle"><a href="https://github.com/zuyu-ultra/developer-learning/commit/060ef7e08be6d72f6f15095aeb5b5c6160485f59"><code>060ef7e ↗</code></a></td>
   </tr>
   <tr>
-    <td width="15%" valign="middle"><code>SIGNAL 03</code><br /><sub>08.24</sub></td>
+    <td width="15%" valign="middle"><code>SIGNAL 04</code><br /><sub>08.24</sub></td>
     <td width="63%" valign="middle"><a href="https://github.com/zuyu-ultra/zuyu-ultra"><strong>zuyu-ultra</strong></a><br /><sub>fix: publish clean snake assets</sub></td>
     <td width="22%" align="right" valign="middle"><a href="https://github.com/zuyu-ultra/zuyu-ultra/commit/2ef4cf7151ac397cad1c2d31366e91516693951e"><code>2ef4cf7 ↗</code></a></td>
   </tr>
 </table>
 
-<p align="right"><sub><code>LATEST SIGNAL / 08.27</code> · sourced from public GitHub commits</sub></p>
+<p align="right"><sub><code>LATEST SIGNAL / 08.28</code> · sourced from public GitHub commits</sub></p>
 <!-- recent-activity:end -->
 
 ### 07 — CONTRIBUTION CHASE
